@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.mainColor {
+	color: #ea4c88;
+}
+
+body {
+	overflow: hidden;
+	background-color: #000;
+	font-size: 8pt;
+}
+
+#login_background {
+	background-color: #000;
+	opacity: 0.8;
+	z-index: 400;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#login_top {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#player_board {
+	background-color: #fff;
+	opacity: 0.8;
+	width: 250px;
+	border-radius: 5px;
+	right: 20px;
+	top: 20px;
+	position: absolute;
+	z-index: 450;
+	padding: 10px;
+}
+
+#playerList {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+#playerList li {
+	margin-top: 5px;
+	padding-left: 5px;
+	font-size: 11pt;
+	cursor: pointer;
+}
+
+#game {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#space {
+	position: relative;
+	background-image: url("../image/space2.jpg");
+	cursor: default;
+	background-repeat: repeat;
+}
+
+.missile {
+	width: 6px;
+	height: 6px;
+	border: 3px solid #fff;
+	border-left: 0;
+	border-bottom: 0;
+	position: absolute;
+	transition: 0.2s all linear;
+	z-index: 200;
+	position: absolute;
+}
+
+.plant {
+	position: absolute;
+	transition: 0.2s all linear;
+	z-index: 100;
+	cursor: pointer;
+	color: #fff;
+	line-height: 50px;
+}
+
+.orbit {
+	position: absolute;
+	border: 1px solid #777;
+	transition: 0.2s all linear;
+	z-index: 10;
+}
+
+.sun {
+	background-image: url("../image/sun.png");
+}
+
+.satellite {
+	background-image: url("../image/satellite.png");
+}
+
+.type1 {
+	background-image: url("../image/type1.png");
+	box-shadow: 0px 0px 3px 3px #cbe7f5;
+}
+
+.type2 {
+	background-image: url("../image/type2.png");
+	box-shadow: 0px 0px 3px 3px #cbe7f5;
+}
+
+.type3 {
+	background-image: url("../image/type3.png");
+	box-shadow: 0px 0px 3px 3px #cbe7f5;
+}
+
+.type4 {
+	background-image: url("../image/type4.png");
+	box-shadow: 0px 0px 3px 3px #cbe7f5;
+}
+
+.type5 {
+	background-image: url("../image/type5.png");
+	box-shadow: 0px 0px 3px 3px #cbe7f5;
+}
+
+.type6 {
+	background-image: url("../image/type6.png");
+	box-shadow: 0px 0px 3px 3px #cbe7f5;
+}
+
+.type7 {
+	background-image: url("../image/type7.png");
+	box-shadow: 0px 0px 3px 3px #cbe7f5;
+}
+
+.type8 {
+	background-image: url("../image/type8.png");
+	box-shadow: 0px 0px 3px 3px #cbe7f5;
+}
+
+.type9 {
+	background-image: url("../image/type9.png");
+	box-shadow: 0px 0px 3px 3px #cbe7f5;
+}
+
+.type10 {
+	background-image: url("../image/type10.png");
+	box-shadow: 0px 0px 3px 3px #cbe7f5;
+}
+
+.type11 {
+	background-image: url("../image/type11.png");
+	box-shadow: 0px 0px 3px 3px #cbe7f5;
+}
+
+.type12 {
+	background-image: url("../image/type12.png");
+	box-shadow: 0px 0px 3px 3px #cbe7f5;
+}
+
+.type13 {
+	background-image: url("../image/type13.png");
+	box-shadow: 0px 0px 3px 3px #cbe7f5;
+}
+
+#bomb {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	position: absolute;
+	top: -99999px;
+	left: -99999px;
+}
